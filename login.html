@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .border2{
+    border: 4px solid rgb(255, 255, 255);
+    background-color:rgb(40, 212, 207) ;
+    height: 200px;
+    width: 300px;
+    padding-top: 90px;
+    padding-left: 90px;
+    margin-left: 550px;
+    /* margin-top: 100px; */
+    box-shadow: 5px 5px 13px rgb(0, 0, 0);
+}
+.border2:hover{
+    background-color: darkcyan;
+    transform: scale(1.1);
+}
+.border{
+    padding-top: 50px;
+}
+#name{
+    height: 25px;
+    width: 200px;
+    padding: 2px 6px;
+    border-radius: 20px;
+
+    font-weight: bold;
+    border: 2px solid black;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#email{
+    height: 25px;
+    width: 200px;
+    padding: 2px 6px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: black;
+
+    font-size: 16px;
+    border-radius: 20px;
+
+    color: rgb(255, 255, 255);
+}
+#pasword{
+    height: 25px;
+    width: 200px;
+    padding: 2px 6px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: black;
+
+    border-radius: 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+#submit{
+    height: 25px;
+    width: 100px;
+    padding: 2px 6px;
+    font-weight: bold;
+    border: 2px solid black;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.container{
+    color: white;
+    margin-left: 550px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    /* border: 2px solid green; */
+    width: 400px;
+    margin-top: 80px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">EMPLOYEE LOGIN FORM...</div>
+    <div class="border">
+         
+        <div class="border2">
+      <table>
+        <form action="php">
+        <tr>
+            <td>
+                <input type="text" name="name" id="name" placeholder="enter your name here">
+                
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="email" name="email" id="email" placeholder="enter your mail here" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" name="pasword" id="pasword" placeholder="enter your pasword" required>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                <!-- <input type="button" value="submit" id="submit" > -->
+                <input type="submit" value="submit" id="submit">
+                <input type="reset" value="clear" id="submit" style="background-color:green ;">
+
+            </td>
+        </tr>
+        </form>
+      </table>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
